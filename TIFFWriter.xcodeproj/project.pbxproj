@@ -14,6 +14,9 @@
 		525BB4A019C93E5E00E836A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525BB49F19C93E5E00E836A0 /* Images.xcassets */; };
 		525BB4A319C93E5E00E836A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525BB4A119C93E5E00E836A0 /* LaunchScreen.xib */; };
 		525BB4AF19C93E5E00E836A0 /* TIFFWriterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525BB4AE19C93E5E00E836A0 /* TIFFWriterTests.m */; };
+		525BB4BB19C93EAE00E836A0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525BB4BA19C93EAE00E836A0 /* ImageIO.framework */; };
+		525BB4BD19C93FE900E836A0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525BB4BC19C93FE900E836A0 /* MobileCoreServices.framework */; };
+		525BB4BF19C9424D00E836A0 /* test_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 525BB4BE19C9424D00E836A0 /* test_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		525BB4A819C93E5E00E836A0 /* TIFFWriterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIFFWriterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		525BB4AD19C93E5E00E836A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		525BB4AE19C93E5E00E836A0 /* TIFFWriterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIFFWriterTests.m; sourceTree = "<group>"; };
+		525BB4BA19C93EAE00E836A0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		525BB4BC19C93FE900E836A0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		525BB4BE19C9424D00E836A0 /* test_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525BB4BD19C93FE900E836A0 /* MobileCoreServices.framework in Frameworks */,
+				525BB4BB19C93EAE00E836A0 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +71,8 @@
 		525BB48619C93E5E00E836A0 = {
 			isa = PBXGroup;
 			children = (
+				525BB4BC19C93FE900E836A0 /* MobileCoreServices.framework */,
+				525BB4BA19C93EAE00E836A0 /* ImageIO.framework */,
 				525BB49119C93E5E00E836A0 /* TIFFWriter */,
 				525BB4AB19C93E5E00E836A0 /* TIFFWriterTests */,
 				525BB49019C93E5E00E836A0 /* Products */,
@@ -96,6 +106,7 @@
 		525BB49219C93E5E00E836A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				525BB4BE19C9424D00E836A0 /* test_image.jpg */,
 				525BB49319C93E5E00E836A0 /* Info.plist */,
 				525BB49419C93E5E00E836A0 /* main.m */,
 			);
@@ -199,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525BB4BF19C9424D00E836A0 /* test_image.jpg in Resources */,
 				525BB49E19C93E5E00E836A0 /* Main.storyboard in Resources */,
 				525BB4A319C93E5E00E836A0 /* LaunchScreen.xib in Resources */,
 				525BB4A019C93E5E00E836A0 /* Images.xcassets in Resources */,
