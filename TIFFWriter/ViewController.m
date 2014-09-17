@@ -23,7 +23,7 @@
     UIImage *img = [UIImage imageNamed:@"test_image.jpg"];
     
     float compression = 1.0; // Lossless compression if available.
-    int orientation = 0; // Origin is at bottom, left.
+    int orientation = 1; // Origin is at top, left.
     CFStringRef myKeys[3];
     CFTypeRef   myValues[3];
     CFDictionaryRef myOptions = NULL;
